@@ -1,0 +1,14 @@
+Standard reference;PGC0 before 10/01/2024 PIC0/PIC2/PID0 after
+Orbit;POE-F
+Ionospheric;GIM model computed from vertical Total Electron Content maps (Chou et al. 2023) rescaled on the orbit altitude with IRI95 model (https://irimodel.org/)
+Wet troposphere;Model computed from ECMWF Gaussian grids
+Sea State Bias;Non-parametric SSB from AltiKa GDR-F (Tran 2019) with corrected SWH MFWAM model field
+Mean Profile/ Mean Sea Surface;MSS CNES_CLS_2025 (beta release, Charayron et al. 2025)
+Mean Dynamic Topography;MDT CNES_CLS_2022 (Jousset and Mulet 2020, Jousset et al. 2022) with a -5cm offset
+Dry troposphere;Model computed from ECMWF Gaussian grids (new S1 and S2 atmospheric tides are applied)
+DAC;DAC v4.0: TUGO forced with ECMWF pressure and wing fields (S1 and S2 were excluded) + inverse barometer computed from rectangular grids
+Ocean tide;FES2022: (Lyard et al. 2023, Loren Carrère et al. 2023) (https://doi.org/10.24400/527896/a01-2024.004) from unstructured grid when available and completed with cartesian grid
+Internal tide;(Zaron E. et Elipot S. 2024) ( blend of HRET14 & HRET8.1, tidal frequencies: M2, K1, S2, O1, N2)
+Pole tide;(Desai, Wahr, et Beckley 2015)& Mean Pole Location
+Solid earth tide;Elastic response to tidal potential (Cartwright et Edden 1973, Cartwright et Tayler 1971)
+Loading tide;FES2022: (Lyard et al. 2023, Loren Carrère et al. 2023)

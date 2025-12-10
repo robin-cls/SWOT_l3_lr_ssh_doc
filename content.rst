@@ -28,22 +28,18 @@ column indicates that the process is applied to the field.
   :header-rows: 1
 
   * - SLA field (netcdf)
-    - SLA field (zcollection)
     - calibrated
     - edited
     - filtered
   * - ssha_unedited
-    - duacs_ssha_karin_2_calibrated
     - X
     -
     -
   * - ssha_unfiltered
-    - where(duacs_editing_flag <= 3, duacs_ssha_karin_2_calibrated, nan)
     - X
     - X
     -
   * - ssha_filtered
-    - where(duacs_editing_flag <= 3, duacs_ssha_karin_2_filtered, nan)
     - X
     - X
     - X

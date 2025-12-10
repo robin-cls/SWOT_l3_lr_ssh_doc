@@ -2,8 +2,7 @@ Data formats
 ************
 
 This section presents the data storage formats used for the products. The
-official format is Netcdf whereas the format used for processing and publishing
-the data on the CNES HPC is ZCollection.
+official diffusion format is Netcdf.
 
 Netcdf
 ++++++
